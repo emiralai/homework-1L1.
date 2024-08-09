@@ -1,0 +1,11 @@
+meme_dict = {
+    "CRİNGE : garip veya utandrıcı birşey ",
+    "LOL : Komik şeylere verılen cevap",
+    "GHOSTING : yokmuş gibi davranmak",
+    }
+word = input("anlamadığın kelimeyi yaz (büyük ve küçük harf yazımına dikkat et!)")
+
+if word in meme_dict.keys():
+    print(meme_dict[word])
+else:
+    print("böyle bir kelime sözlüğümüzde var YOK! eklemek istermisin?")
